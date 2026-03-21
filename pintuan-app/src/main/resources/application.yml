@@ -1,0 +1,5 @@
+spring:
+  config:
+    name: pintuan-app
+  profiles:
+    active: dev
