@@ -5,5 +5,5 @@ import com.example.myapp.domain.activity.model.entity.TrialBalanceEntity;
 
 public interface IIndexGroupBuyMarketService {
 
-    TrialBalanceEntity indexMarketTrail(MarketProductEntity marketProductEntity) throws Exception;
+    TrialBalanceEntity indexMarketTrial(MarketProductEntity marketProductEntity) throws Exception;
 }
