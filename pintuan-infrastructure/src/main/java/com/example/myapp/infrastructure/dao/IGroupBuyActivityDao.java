@@ -1,0 +1,13 @@
+package com.example.myapp.infrastructure.dao;
+
+
+import com.example.myapp.infrastructure.dao.po.GroupBuyActivity;
+import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
+
+@Mapper
+public interface IGroupBuyActivityDao {
+
+    List<GroupBuyActivity> queryGroupBuyActivityList();
+}
