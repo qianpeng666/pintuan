@@ -1,0 +1,24 @@
+26-03-22.17:50:06.620 [main            ] INFO  GroupBuyActivityDaoTest - Starting GroupBuyActivityDaoTest using Java 1.8.0_471 on chenyuyu with PID 19140 (started by Cheny in D:\Java\codehome\pingtuan\pintuan\pintuan-app)
+26-03-22.17:50:06.621 [main            ] INFO  GroupBuyActivityDaoTest - The following 1 profile is active: "dev"
+26-03-22.17:50:08.108 [main            ] INFO  GroupBuyActivityDaoTest - Started GroupBuyActivityDaoTest in 1.86 seconds (JVM running for 2.463)
+26-03-22.17:50:08.305 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+26-03-22.17:50:08.979 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+26-03-22.17:50:09.172 [main            ] INFO  GroupBuyActivityDaoTest - 测试结果:[{"activityId":100123,"channel":"c01","createTime":1733537980000,"discountId":"25120207","endTime":1733537980000,"goodsId":"9890001","groupType":0,"id":1,"source":"s01","startTime":1733537980000,"status":0,"tagId":"1","tagScope":"1","takeLimitCount":1,"target":1,"updateTime":1733537980000,"validTime":15}]
+26-03-22.17:50:09.180 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+26-03-22.17:50:09.241 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+26-03-22.17:59:11.169 [main            ] INFO  GroupBuyActivityDaoTest - Starting GroupBuyActivityDaoTest using Java 1.8.0_471 on chenyuyu with PID 23712 (started by Cheny in D:\Java\codehome\pingtuan\pintuan\pintuan-app)
+26-03-22.17:59:11.170 [main            ] INFO  GroupBuyActivityDaoTest - The following 1 profile is active: "dev"
+26-03-22.17:59:12.565 [main            ] INFO  GroupBuyActivityDaoTest - Started GroupBuyActivityDaoTest in 1.721 seconds (JVM running for 2.268)
+26-03-22.17:59:12.735 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+26-03-22.17:59:13.698 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+26-03-22.17:59:14.134 [main            ] INFO  GroupBuyActivityDaoTest - 测试结果:[{"activityId":100123,"channel":"c01","createTime":1733537980000,"discountId":"25120207","endTime":1733537980000,"goodsId":"9890001","groupType":0,"id":1,"source":"s01","startTime":1733537980000,"status":0,"tagId":"1","tagScope":"1","takeLimitCount":1,"target":1,"updateTime":1733537980000,"validTime":15}]
+26-03-22.17:59:14.151 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+26-03-22.17:59:14.177 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+26-03-22.18:11:05.328 [main            ] INFO  GroupBuyDiscountDaoTest - Starting GroupBuyDiscountDaoTest using Java 1.8.0_471 on chenyuyu with PID 30272 (started by Cheny in D:\Java\codehome\pingtuan\pintuan\pintuan-app)
+26-03-22.18:11:05.328 [main            ] INFO  GroupBuyDiscountDaoTest - The following 1 profile is active: "dev"
+26-03-22.18:11:06.923 [main            ] INFO  GroupBuyDiscountDaoTest - Started GroupBuyDiscountDaoTest in 1.979 seconds (JVM running for 2.602)
+26-03-22.18:11:07.130 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+26-03-22.18:11:08.664 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+26-03-22.18:11:09.159 [main            ] INFO  GroupBuyDiscountDaoTest - 测试结果:[{"createTime":1733538015000,"discountDesc":"测试优惠","discountId":9890001,"discountName":"测试优惠","discountType":0,"id":1,"marketExpr":"20","marketPlan":"ZJ","updateTime":1733538015000}]
+26-03-22.18:11:09.174 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+26-03-22.18:11:09.298 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

@@ -16,7 +16,7 @@ import java.util.List;
 
 @Slf4j
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = Application.class)
+@SpringBootTest
 
 public class GroupBuyDiscountDaoTest {
 

@@ -1,26 +1,21 @@
-package com.example.myapp.infrastructure.dao.po;
+package com.example.myapp.domain.activity.model.valobj;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDateTime;
 import java.util.Date;
 
+
 /**
- * 拼团活动
+ * 相当于把数据库里面的原始信息加工整合后的数据给Node节点
  */
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GroupBuyActivity {
-
-    /**
-     * 自增主键
-     */
-    private Long id;
-
+public class GroupBuyActivityDiscountVO {
     /**
      * 活动ID
      */
@@ -49,7 +44,7 @@ public class GroupBuyActivity {
     /**
      * 折扣ID
      */
-    private String discountId;
+    private GroupBuyDiscount groupBuyDiscount;
 
     /**
      * 拼团方式（0自动成团、1达成目标拼团）
@@ -95,14 +90,41 @@ public class GroupBuyActivity {
      * 人群标签规则范围（多选；1可见限制、2参与限制）
      */
     private String tagScope;
+    @Data
+    @Builder
+    @AllArgsConstructor
+    @NoArgsConstructor
+    public static  class  GroupBuyDiscount{
+        /**
+         * 折扣标题
+         */
+        private String discountName;
 
-    /**
-     * 创建时间
-     */
-    private LocalDateTime createTime;
+        /**
+         * 折扣描述
+         */
+        private String discountDesc;
 
-    /**
-     * 更新时间
-     */
-    private LocalDateTime updateTime;
+        /**
+         * 折扣类型（0:base、1:tag）
+         */
+        private Integer discountType;
+
+        /**
+         * 营销优惠计划（ZJ:直减、MJ:满减、N元购）
+         */
+        private String marketPlan;
+
+        /**
+         * 营销优惠表达式
+         */
+        private String marketExpr;
+
+        /**
+         * 人群标签，特定优惠限定
+         */
+        private String tagId;
+
+
+    }
 }
