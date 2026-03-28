@@ -13,6 +13,13 @@ public class IIndexGroupBuyMarketServiceImpl implements IIndexGroupBuyMarketServ
 
     @Resource
     private DefaultActivityStrategyFactory defaultActivityStrategyFactory;
+
+    /**
+     *
+     * @param marketProductEntity 是传进去的商品和客户的信息
+     * @return TrialBalanceEntity 是处理后的对象一些折扣信息啥的
+     * @throws Exception
+     */
     @Override
     public TrialBalanceEntity indexMarketTrial(MarketProductEntity marketProductEntity) throws Exception {
 
